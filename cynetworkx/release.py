@@ -182,8 +182,8 @@ def get_info(dynamic=True):
 
 # Version information
 name = 'cynetworkx'
-major = "2"
-minor = "2rc1"
+major = "3"
+minor = "0"
 
 
 # Declare current release as a development release.
