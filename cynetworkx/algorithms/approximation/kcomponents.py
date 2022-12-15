@@ -5,7 +5,8 @@
 #    All rights reserved.
 #    BSD license.
 import itertools
-from collections import defaultdict, Mapping
+from collections import defaultdict
+from collections.abc import Mapping
 
 import cynetworkx as nx
 from cynetworkx.exception import NetworkXError

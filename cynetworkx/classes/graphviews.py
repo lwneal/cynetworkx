@@ -45,7 +45,7 @@ the chain is tricky and much harder with restricted_views than
 with induced subgraphs.
 Often it is easiest to use `.copy()` to avoid chains.
 """
-from collections import Mapping
+from collections.abc import Mapping
 
 from cynetworkx.classes import Graph, DiGraph, MultiGraph, MultiDiGraph
 from cynetworkx.classes.coreviews import ReadOnlyGraph, \
